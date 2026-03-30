@@ -32,6 +32,34 @@
 
 该脚本只依赖 Python 标准库。
 
+## 安装方法
+
+### 方式一：直接使用本仓库
+
+```bash
+git clone <repo-url>
+cd research-skills
+```
+
+当前仓库不需要额外的包安装步骤。
+
+### 配置环境变量
+
+运行脚本前，至少设置一个认证变量：
+
+```bash
+export NANOBANANA_API_KEY="your_api_key"
+# 或
+export NANOBANANA_BEARER_TOKEN="your_bearer_token"
+```
+
+可选覆盖项：
+
+```bash
+export NANOBANANA_HOST="api.vectorengine.ai"
+export NANOBANANA_MODEL="gemini-3-pro-image-preview"
+```
+
 ## 环境变量
 
 认证相关：

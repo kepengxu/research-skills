@@ -6,6 +6,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This repository is currently a small Claude Code skill repository centered on one skill: `research-figure-edit/`.
 
+The intended usage model is to copy a skill folder into either `~/.claude/skills/` for global use or `.claude/skills/` inside a project for project-local use.
+
 The first skill implements a research-figure generation/editing workflow:
 - `research-figure-edit/SKILL.md` defines the skill contract, mode selection rules, prompt-preprocessing requirements, venue-style presets, and expected output reporting.
 - `research-figure-edit/research_figure_edit.py` is the executable backend script that validates inputs, loads environment configuration, calls the remote image-generation API, and saves returned images/raw JSON to disk.

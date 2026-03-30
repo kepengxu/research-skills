@@ -34,11 +34,18 @@
 
 ## 安装方法
 
-### 方式一：直接使用本仓库
+### 方式一：作为 Claude Code skill 安装
+
+将 skill 目录复制到以下任一位置：
+- 全局 skills 目录：`~/.claude/skills/`
+- 项目本地 skills 目录：`.claude/skills/`
+
+示例：
 
 ```bash
-git clone <repo-url>
-cd research-skills
+cp -r research-figure-edit ~/.claude/skills/
+# 或
+cp -r research-figure-edit .claude/skills/
 ```
 
 当前仓库不需要额外的包安装步骤。

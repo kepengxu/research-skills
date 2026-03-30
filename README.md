@@ -34,11 +34,18 @@ The script uses only the Python standard library.
 
 ## Installation
 
-### Option 1: Use this repository directly
+### Option 1: Install as a Claude Code skill
+
+Copy the skill folder into either:
+- the global skills directory: `~/.claude/skills/`
+- a project's local skills directory: `.claude/skills/`
+
+Example:
 
 ```bash
-git clone <repo-url>
-cd research-skills
+cp -r research-figure-edit ~/.claude/skills/
+# or
+cp -r research-figure-edit .claude/skills/
 ```
 
 No package installation step is required at the moment.
